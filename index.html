@@ -7,13 +7,13 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      line-height: 1.7;
+      line-height: 1.8;
       padding: 30px;
       max-width: 850px;
       margin: auto;
-      background-color: #f7f9fc;
+      background-color: #f9f9f9;
     }
-    h1, h2 {
+    h1, h2, h3, h4 {
       color: #2c3e50;
     }
     ul {
@@ -21,15 +21,15 @@
       margin-bottom: 20px;
     }
     li {
-      margin-bottom: 5px;
+      margin-bottom: 6px;
     }
     section {
-      margin-bottom: 40px;
+      margin-bottom: 50px;
     }
     .note {
       font-style: italic;
       color: #666;
-      margin-bottom: 20px;
+      margin-bottom: 25px;
     }
   </style>
 </head>
@@ -39,97 +39,118 @@
 
   <section>
     <h2>Perangkat Keras (Hardware)</h2>
+    <p>Perangkat keras adalah komponen fisik dari sebuah komputer atau sistem teknologi informasi yang bisa disentuh langsung. Contohnya seperti:</p>
     <ul>
       <li>Monitor</li>
       <li>Keyboard</li>
       <li>Mouse</li>
       <li>Printer</li>
-      <li>CPU (Prosesor, RAM, ROM)</li>
-      <li>Harddisk / SSD</li>
-      <li>Modem dan Router</li>
+      <li>Prosesor (CPU), RAM, dan ROM</li>
+      <li>Harddisk atau SSD</li>
       <li>Scanner</li>
+      <li>Modem dan Router</li>
     </ul>
   </section>
 
   <section>
     <h2>Perangkat Lunak (Software)</h2>
+    <p>Perangkat lunak adalah kumpulan instruksi atau program yang digunakan untuk menjalankan berbagai fungsi dalam komputer. Perangkat lunak terbagi menjadi beberapa jenis berikut:</p>
+    <h4>1. Sistem Operasi</h4>
     <ul>
-      <li>Sistem Operasi (Windows, Linux, MacOS)</li>
-      <li>Aplikasi Perkantoran (Microsoft Word, Excel, PowerPoint)</li>
-      <li>Aplikasi Grafis (Paint, CorelDraw, Canva)</li>
-      <li>Browser (Chrome, Firefox)</li>
-      <li>Antivirus (Avast, Smadav)</li>
-      <li>Editor Pemrograman (Scratch, Blockly, Notepad++)</li>
+      <li>Windows</li>
+      <li>MacOS</li>
+      <li>Linux</li>
     </ul>
-  </section>
-
-  <section>
-    <h2>Jenis-Jenis Perangkat Lunak</h2>
+    <h4>2. Aplikasi Pengolah Kata</h4>
     <ul>
-      <li><strong>Sistem Operasi:</strong> Mengelola hardware dan software (contoh: Windows)</li>
-      <li><strong>Perangkat Lunak Aplikasi:</strong> Digunakan pengguna untuk tugas tertentu (contoh: Word, Excel)</li>
-      <li><strong>Perangkat Lunak Pemrograman:</strong> Untuk membuat program (contoh: Scratch, Python)</li>
+      <li>Microsoft Word</li>
+      <li>Google Docs</li>
     </ul>
+    <h4>3. Aplikasi Pengolah Angka</h4>
+    <ul>
+      <li>Microsoft Excel</li>
+      <li>Google Sheets</li>
+    </ul>
+    <h4>4. Aplikasi Presentasi</h4>
+    <ul>
+      <li>Microsoft PowerPoint</li>
+      <li>Google Slides</li>
+    </ul>
+    <h4>5. Perangkat Lunak Utilitas</h4>
+    <ul>
+      <li>Antivirus</li>
+      <li>Firewall</li>
+      <li>Software Enkripsi</li>
+    </ul>
+    <p>Contoh lain software yang umum digunakan: Adobe Photoshop, Google Chrome, Notepad++, dan lain-lain.</p>
   </section>
 
   <section>
     <h2>Rumus Microsoft Excel yang Penting</h2>
+    <p>Excel digunakan untuk mengelola data dalam bentuk angka dan tabel. Berikut beberapa rumus dasar yang sering digunakan:</p>
     <ul>
-      <li><strong>SUM:</strong> Menjumlahkan angka<br>Contoh: <code>=SUM(A1:A5)</code></li>
-      <li><strong>AVERAGE:</strong> Menghitung rata-rata<br>Contoh: <code>=AVERAGE(B1:B3)</code></li>
-      <li><strong>IF:</strong> Logika jika-maka<br>Contoh: <code>=IF(C1>50, "Lulus", "Tidak Lulus")</code></li>
-      <li><strong>VLOOKUP:</strong> Mencari data secara vertikal<br>Contoh: <code>=VLOOKUP("Budi", A2:B5, 2, FALSE)</code></li>
-      <li><strong>HLOOKUP:</strong> Mencari data secara horizontal<br>Contoh: <code>=HLOOKUP("Nilai", A1:D2, 2, FALSE)</code></li>
-      <li><strong>COUNTIF:</strong> Menghitung jumlah sel berdasarkan syarat<br>Contoh: <code>=COUNTIF(A1:A10, ">70")</code></li>
-      <li><strong>MAX/MIN:</strong> Mencari nilai tertinggi/terendah<br>Contoh: <code>=MAX(A1:A10)</code> atau <code>=MIN(A1:A10)</code></li>
+      <li><strong>SUM:</strong> Menjumlahkan angka<br><code>=SUM(A1:A5)</code></li>
+      <li><strong>AVERAGE:</strong> Menghitung rata-rata<br><code>=AVERAGE(B1:B3)</code></li>
+      <li><strong>IF:</strong> Pernyataan logika<br><code>=IF(C1>50, "Lulus", "Tidak Lulus")</code></li>
+      <li><strong>VLOOKUP:</strong> Mencari nilai secara vertikal<br><code>=VLOOKUP("Nama", A2:C10, 2, FALSE)</code></li>
+      <li><strong>HLOOKUP:</strong> Mencari nilai secara horizontal<br><code>=HLOOKUP("Nilai", A1:D2, 2, FALSE)</code></li>
+      <li><strong>COUNTIF:</strong> Menghitung data dengan syarat<br><code>=COUNTIF(A1:A10, ">70")</code></li>
+      <li><strong>MAX/MIN:</strong> Mencari nilai maksimum/minimum<br><code>=MAX(A1:A10)</code> / <code>=MIN(A1:A10)</code></li>
     </ul>
   </section>
 
   <section>
     <h2>Analisis Data di Excel</h2>
-    <p>Analisis data adalah proses mengolah data agar menghasilkan informasi yang bermanfaat. Di Excel, kita bisa:</p>
+    <p>Analisis data di Excel membantu kita memahami data dengan cara memproses, menyaring, dan menyimpulkan informasi penting. Excel memiliki fitur seperti:</p>
     <ul>
-      <li>Menggunakan grafik (chart) untuk melihat tren data</li>
-      <li>Menggunakan filter dan sorting untuk menyaring data</li>
-      <li>Menggunakan rumus-rumus seperti <code>SUMIF</code>, <code>COUNTIF</code>, <code>AVERAGEIF</code></li>
-      <li>Menghitung total, rata-rata, persentase, dll.</li>
+      <li><strong>Chart:</strong> Menampilkan grafik dari data</li>
+      <li><strong>Sorting & Filtering:</strong> Mengurutkan dan menyaring data</li>
+      <li><strong>Rumus logika:</strong> Menggunakan IF, AND, OR untuk pengambilan keputusan</li>
+      <li><strong>Fungsi statistik:</strong> SUM, AVERAGE, COUNT, MAX, MIN</li>
+      <li><strong>Fungsi kondisi:</strong> SUMIF, COUNTIF, AVERAGEIF</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Dampak Positif dan Negatif Penggunaan Handphone</h2>
+    <h4>Dampak Positif:</h4>
+    <ul>
+      <li><strong>Memudahkan Komunikasi:</strong> komunikasi cepat dengan keluarga, teman, dan rekan kerja.</li>
+      <li><strong>Akses Informasi:</strong> mudah mengakses berita, edukasi, dan data penting.</li>
+      <li><strong>Media Hiburan:</strong> sarana hiburan seperti musik, video, dan game.</li>
+      <li><strong>Peningkatan Kreativitas:</strong> bisa digunakan buat foto, video, tulisan, dll.</li>
+      <li><strong>Kemampuan Belajar:</strong> bantu akses materi lewat aplikasi belajar online.</li>
+    </ul>
+    <h4>Dampak Negatif:</h4>
+    <ul>
+      <li><strong>Kecanduan:</strong> terlalu sering pakai HP bisa ganggu aktivitas dan hubungan sosial.</li>
+      <li><strong>Gangguan Kesehatan:</strong> bisa sebabkan mata lelah, sakit kepala, gangguan tidur, dan stres.</li>
+      <li><strong>Masalah Sosial:</strong> interaksi langsung jadi berkurang karena fokus ke layar HP.</li>
+      <li><strong>Postur Tubuh Buruk:</strong> terlalu sering nunduk bikin postur bungkuk atau leher maju.</li>
+      <li><strong>Gangguan Tidur:</strong> cahaya layar HP ganggu hormon tidur (melatonin).</li>
+      <li><strong>Ketergantungan:</strong> susah lepas dari HP, jadi kebiasaan wajib tiap hari.</li>
+      <li><strong>Gangguan Mental:</strong> bisa muncul kecemasan, depresi, atau stres berlebih.</li>
+      <li><strong>Perubahan Kemampuan Kognitif:</strong> daya ingat dan fokus bisa menurun karena terlalu sering pakai HP.</li>
     </ul>
   </section>
 
   <section>
     <h2>Cyberbullying</h2>
-    <p>Cyberbullying adalah tindakan perundungan yang dilakukan lewat media digital seperti chat, media sosial, atau game online.</p>
-    <h4>Dampak:</h4>
+    <p>Cyberbullying adalah bentuk perundungan yang dilakukan melalui media digital seperti media sosial, chat, atau game online. Bentuknya bisa berupa ejekan, hinaan, menyebarkan hoaks, atau mengucilkan orang di dunia maya.</p>
+    <h4>Dampak Cyberbullying:</h4>
     <ul>
-      <li>Stres dan depresi</li>
-      <li>Menurunnya kepercayaan diri</li>
-      <li>Merasa terisolasi atau dikucilkan</li>
-      <li>Bisa menyebabkan trauma serius</li>
+      <li>Stres dan tekanan psikologis</li>
+      <li>Penurunan rasa percaya diri</li>
+      <li>Gangguan mental dan emosional</li>
+      <li>Trauma jangka panjang</li>
     </ul>
-    <h4>Cara Mencegah:</h4>
+    <h4>Cara Mencegah Cyberbullying:</h4>
     <ul>
-      <li>Gunakan media sosial dengan bijak</li>
-      <li>Jangan menyebarkan kebencian atau komentar buruk</li>
-      <li>Laporkan pelaku ke platform yang digunakan</li>
-      <li>Beri dukungan ke korban, jangan ikut-ikutan membully</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>Dampak Positif dan Negatif Media Sosial</h2>
-    <h4>Positif:</h4>
-    <ul>
-      <li>Sarana komunikasi dan informasi</li>
-      <li>Menambah wawasan dan pengetahuan</li>
-      <li>Bisa jadi tempat promosi atau jualan</li>
-      <li>Memperluas relasi dan jaringan sosial</li>
-    </ul>
-    <h4>Negatif:</h4>
-    <ul>
-      <li>Mudah terkena hoaks atau informasi palsu</li>
-      <li>Kecanduan main HP terus</li>
-      <li>Jadi malas bersosialisasi langsung</li>
-      <li>Bisa jadi tempat cyberbullying</li>
+      <li>Meningkatkan kesadaran dan edukasi tentang etika digital</li>
+      <li>Jangan sembarangan menyebar info pribadi</li>
+      <li>Bangun lingkungan online yang positif</li>
+      <li>Pahami perasaan orang lain, jangan asal komentar</li>
+      <li>Berani lapor kalau lihat atau jadi korban bullying</li>
     </ul>
   </section>
 
